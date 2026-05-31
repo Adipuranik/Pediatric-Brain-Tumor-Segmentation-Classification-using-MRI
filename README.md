@@ -1,13 +1,13 @@
-# 🧠 Deep Learning Framework for Segmentation and Classification of Pediatric Brain Tumors using MRI
+#  Deep Learning Framework for Segmentation and Classification of Pediatric Brain Tumors using MRI
 
 An automated deep learning pipeline that combines **U-Net + ResNet34 segmentation** and **ResNet18 classification** to detect and classify pediatric brain tumors from MRI images — with ROI-based extraction, Tversky loss for class imbalance handling, and a unified inference pipeline.
 
-> Project Exhibition — Dept. of ECE, VVCE, Mysuru | April 2026  
+> Final year project — Dept. of ECE, VVCE, Mysuru | April 2026  
 > Guide: **Dr. Jagadeesh B**, Associate Professor, Dept. of ECE
 
 ---
 
-## 👥 Team
+##  Team
 
 | USN | Name |
 |-----|------|
@@ -18,7 +18,7 @@ An automated deep learning pipeline that combines **U-Net + ResNet34 segmentatio
 
 ---
 
-## 📊 Results Summary
+##  Results Summary
 
 | Stage | Model | Metric | Value |
 |-------|-------|--------|-------|
@@ -28,7 +28,7 @@ An automated deep learning pipeline that combines **U-Net + ResNet34 segmentatio
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 pediatric-brain-tumor-segmentation/
@@ -52,7 +52,7 @@ pediatric-brain-tumor-segmentation/
 
 ---
 
-## 🏗️ Pipeline Architecture
+##  Pipeline Architecture
 
 ```
 Input MRI (2D slice, 128×128)
@@ -82,7 +82,7 @@ Input MRI (2D slice, 128×128)
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. MRI Image Input
 - Dataset: **BraTS** + **Kaggle Pediatric Brain Tumor** dataset
@@ -117,7 +117,7 @@ Input MRI (2D slice, 128×128)
 
 ---
 
-## 🔧 Hardware & Software Requirements
+##  Hardware & Software Requirements
 
 | Category | Tool / Framework |
 |----------|-----------------|
@@ -132,32 +132,7 @@ Input MRI (2D slice, 128×128)
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Adipuranik/pediatric-brain-tumor-segmentation.git
-cd pediatric-brain-tumor-segmentation
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run Inference on a Sample Image
-```bash
-python src/predict.py --image data/sample/sample_mri.jpg
-```
-
-### 4. Launch Gradio Interface
-```bash
-python src/gradio_app.py
-```
-
----
-
-## 📦 requirements.txt
+##  requirements.txt
 
 ```
 torch>=2.0.0
@@ -174,7 +149,7 @@ tqdm>=4.65.0
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 This project uses two datasets:
 
@@ -185,7 +160,7 @@ This project uses two datasets:
 
 ---
 
-## 📸 Results
+##  Results
 
 > Add the following to `results/` folder:
 > - Validation Dice Score curve
@@ -196,19 +171,19 @@ This project uses two datasets:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This is an academic research prototype developed for the Project Exhibition at VVCE, Mysuru. It is **not a certified medical diagnostic tool** and should not be used for clinical decision-making.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
-## 👩‍💻 Authors
+##  Authors
 
 **Aditi S Puranik** (4VV22EC007) · [LinkedIn](https://linkedin.com/in/aditi-s-puranik-598629391) · [GitHub](https://github.com/Adipuranik)  
 Aditi K (4VV22EC006) · Ajeya S R (4VV22EC008) · Anveesh S (4VV22EC019)  
